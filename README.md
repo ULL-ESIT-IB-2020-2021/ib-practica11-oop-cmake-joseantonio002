@@ -12,3 +12,39 @@ This text is Markdown text. To learn about Markdown, Study these references:
 * [StackEdit. An On-line MarkDown Editor](https://stackedit.io/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+#include <iostream>
+
+class Complejo{
+ private:
+  int real_;
+  int im_;
+ public:
+  Complejo() = default;
+  Complejo(int x): real_{x} {}
+  Complejo(int x,int y): real_{x} , im_{y} {}
+  friend Complejo Add(Complejo a,Complejo b);
+  friend Complejo Subs(Complejo a,Complejo b);
+  void Print(){
+    std::cout<<real_<<" "<<im_<<"i"<<std::endl;
+  }
+};
+
+Complejo Add(Complejo a,Complejo b){
+  Complejo c{a.real_+b.real_,a.im_+b.im_};
+  return c;
+}
+
+Complejo Subs(Complejo a,Complejo b){
+  Complejo c{a.real_-b.real_,a.im_-b.im_};
+  return c;
+}
+
+int main() {
+  Complejo complejo1{4, 5}, complejo2{7, -8};
+  Complejo resultado;
+  resultado = Add(complejo1, complejo2);
+  resultado.Print();
+  resultado = Subs(complejo1, complejo2);
+  resultado.Print();
+  return 0;
+}
