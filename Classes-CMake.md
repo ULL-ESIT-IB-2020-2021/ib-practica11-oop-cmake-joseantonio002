@@ -268,7 +268,7 @@ Si el programa se ejecuta pasando como parámetro la opción `--help` se ha de o
 ./racionales -- Números Racionales
 Modo de uso: ./racionales fichero_entrada fichero_salida 
 
-fichero_entrada: Fichero de texto conteniendo líneas con un par de números racionales: `a/b c/d` separados por un espacio
+ichero_entrada: Fichero de texto conteniendo líneas con un par de números racionales: `a/b c/d` separados por un espacio
 fichero_salida:  Fichero de texto que contendrá líneas con las operaciones realizadas: `a/b + c/d = n/m`
 ```
 ### Referencias
