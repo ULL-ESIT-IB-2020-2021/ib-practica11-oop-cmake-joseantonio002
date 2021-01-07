@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/racionales/src/main_racionales.cc
+racionales.h
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/racionales/src/racionales.h
+vector
+-
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/racionales/src/racionales.cc
+racionales.h
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/racionales/src/racionales.h
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/racionales/src/racionales.h
+fstream
+-
+string
+-
+iostream
+-
+
