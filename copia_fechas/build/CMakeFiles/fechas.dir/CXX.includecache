@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/Fecha.cc
+Fecha.h
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/Fecha.h
+cstdlib
+-
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/Fecha.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/fecha_.h
+vector
+-
+string
+-
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/func_fechas.cc
+fecha_.h
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/fecha_.h
+cstdlib
+-
+iostream
+-
+
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/main_fechas.cc
+Fecha.h
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/Fecha.h
+fecha_.h
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/src/fecha_.h
+fstream
+-
+sstream
+-
+

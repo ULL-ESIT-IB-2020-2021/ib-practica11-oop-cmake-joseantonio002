@@ -1,0 +1,3 @@
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/build/CMakeFiles/rebuild_cache.dir
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/build/CMakeFiles/fechas.dir
+/home/usuario/ib-practica11-oop-cmake-joseantonio002/copia_fechas/build/CMakeFiles/edit_cache.dir
